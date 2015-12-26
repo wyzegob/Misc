@@ -1,21 +1,23 @@
-<?xml version="1.0"?>
-<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
-         xmlns:NC="http://home.netscape.com/NC-rdf#"
-         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="urn:mozilla:extension:sowatch@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAFxsP+ggVAmRfQCI6uDd56WwMpSQo2ZA5Ksm7HUpvRDbK7aFLlQk1Umt0LiU4TCLaVyCMf/2G9yIPvlSiRwwSy2R5DgZiOFDkl27JS12rAFnNc/ytmoSlSDFluYIp0gBvUDwMUXqGLIQbSZOcnUsQxD9YNBToL05of5qXI9IZ+kJ">
-    <em:updates RDF:resource="rdf:#$oArz01"/>
-  </RDF:Description>
-  <RDF:Seq RDF:about="rdf:#$oArz01">
-    <RDF:li RDF:resource="rdf:#$pArz01"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="rdf:#$pArz01"
-                   em:version="1.1.1">
-    <em:targetApplication RDF:resource="rdf:#$sArz01"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$sArz01"
-                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   em:minVersion="38.0a1"
-                   em:maxVersion="46.0"
-                   em:updateLink="https://github.com/jc3213/Misc/releases/download/1.1.1/sowatch-1.1.1-fx.xpi" />
-</RDF:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:extension:adsfilter@sunbox.cc">
+    <em:updates>
+    <Seq>
+      <li>
+      <Description>
+        <em:version>1.1.2</em:version>
+        <em:targetApplication><!-- Firefox -->
+          <Description>
+            <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+            <em:minVersion>38.0a1</em:minVersion>
+            <em:maxVersion>45.0</em:maxVersion>
+            <em:updateLink>https://github.com/jc3213/Misc/releases/download/1.1.2/adsfilter_for_sunbox-1.1.2-fx.xpi</em:updateLink>
+          </Description>
+        </em:targetApplication>
+      </Description>
+      </li>
+    </Seq>
+    </em:updates>
+  </Description>
+</RDF>
