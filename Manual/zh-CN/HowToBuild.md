@@ -5,7 +5,7 @@
 - 2) 输入 X: 以及 cd X:\yyyyy\zzzzz 以选定存放源代码的文件夹
 - 3) 运行 jpm xpi 生成 my-addon.xpi 文件 与 my-addon.update.rdf 文件
   - 3.1) 将 my-addon.xpi 上传至 AMO 获取签名
-  - 3.1) 如果有使用 updateKey 的话必须请跳过第三步
+  - 3.2) 如果有使用 updateKey 的话必须请跳过第三步
 - 4) 运行 jpm sign 可以直接生成已签名的 my-addon.xpi
 
 
