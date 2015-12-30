@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$Bzrz01"
+                   em:version="1.5.2">
+    <em:targetApplication RDF:resource="rdf:#$Ezrz01"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:simpleproxy@jc3213.github"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAK7T7GAx/0eBiy7S9AyytQuYQs5qWSwephLJHqQcIIXU+FRf+ctEzjxRKn/MCPWAeaVhstL9vcAFg3hGENVhAsi5mQAuRvHN0GQiFjpl+gj2EhuMsK/gLQLWJDPsMQip3whnrdXhENHb5qgQYxsobcccq//5AF/Kg6CIml6whonN">
+    <em:updates RDF:resource="rdf:#$Azrz01"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Ezrz01"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="38.0a1"
+                   em:maxVersion="46.0"
+                   em:updateLink="https://github.com/jc3213/SimpleProxy/releases/download/1.5.2/simpleproxy-1.5.2-fx.xpi" />
+  <RDF:Seq RDF:about="rdf:#$Azrz01">
+    <RDF:li RDF:resource="rdf:#$Bzrz01"/>
+  </RDF:Seq>
+</RDF:RDF>
