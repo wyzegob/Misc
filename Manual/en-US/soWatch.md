@@ -7,6 +7,12 @@
 
 - Read <a href="https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md">Build Step</a>
 
+##About soWatch!
+
+- soWatch! eveal equivalent to the lesser function version of soWatch! mk2
+- soWatch! do not have either Player Auto Update function or Toolbar UI
+- If you want to use local players, you have to download or update them manually
+
 ##How To Use
 
 ###about:addons
