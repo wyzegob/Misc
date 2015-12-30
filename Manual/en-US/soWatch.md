@@ -1,6 +1,6 @@
 ##Caution
 
-- Use this at your own risk
+- Use at your own risk
 
 ##How To Build
 
