@@ -1,4 +1,4 @@
-# Manual
+#Manual (用户手册)
 
 ##English
 - <a href="https://github.com/jc3213/Misc/blob/master/Manual/en-US/soWatch.md">soWatch! mk2 Manual</a>
