@@ -15,7 +15,7 @@
     <em:updates RDF:resource="rdf:#$oArz01"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$pArz01"
-                   em:version="1.1.2">
+                   em:version="1.1.2ESR">
     <em:targetApplication RDF:resource="rdf:#$sArz01"/>
   </RDF:Description>
 </RDF:RDF>
