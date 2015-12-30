@@ -12,7 +12,7 @@
 ##注意事项:
 - 1) 你必须修改 package.json 中的 UUID
 - 2) 你必须修改或删除 package.json 中的 updateURL, updateLink, updateKey 键值
-  - 2.1) 如果使用 updateKey, 你必须参考<a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">这里</a> 修改 version 和 updateLink 后再用 McCoy 签名
+  - 2.1) 如果使用 updateKey, 你必须参考 <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">这里</a> 修改 version 和 updateLink 后再用 McCoy 签名
 
 <img src="http://i66.tinypic.com/ml5abm.png"></br>
 
