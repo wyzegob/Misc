@@ -1,26 +1,26 @@
 #基于 Add-ons SDK 的 Add-ons
 
 ##步骤:
-- 1) Install jpm via npm
-- 2) Enter X: and cd X:\yyyyy\zzzzz to defined the folder where you put the source code
-- 3.1) Run jpm xpi to build xpi then upload to AMO to get signed
-- 3.2) Run jpm sign to build and sign your add-on, you'll get signed xpi
+- 1) 通过 npm 安装 jpm
+- 2) 输入 X: 以及 cd X:\yyyyy\zzzzz 以选定存放源代码的文件夹
+- 3.1) 运行 jpm xpi 生成扩展，然后上传至 AMO 签名
+- 3.2) 运行 jpm sign 可以直接生成已签名的扩展
 
 ##注意事项:
-- 1) You must change the UUID of the add-on in package.json
-- 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
+- 1) 你必须修改 package.json 中的 UUID
+- 2) 你必须修改或删除 package.json 中的 updateURL, updateLink, updateKey 键值
 <img src="http://i66.tinypic.com/ml5abm.png">
 
 #老扩展
 
 ##步骤:
-- 1) Zip all the files into my-addon.zip (don't zip the folder)
-- 2) Rename my-addon.zip to my-addon-xpi
-- 3) Upload my-addon.xpi to AMO and get signed
+- 1) 将所有文件压缩成 .zip文件 (不要直接压缩文件夹)
+- 2) 将 my-addon.zip 文件更改为 my-addon.xpi 文件
+- 3) 将 my-addon.xpi 文件上传至 AMO 签名
 
 ##注意事项:
-- 1) You must change the UUID of the add-on in install.rdf
-- 2) You must edit or delete the updateURL, and updateKey keys in install.rdf
-- 3) You must edit or delete the updateLink, and signature keys in Update.rdf
+- 1) 你必须修改 install.rdf 中的 UUID
+- 2) 你必须修改或删除 install.rdf 中的 updateURL, updateKey 键值
+- 3) 你必须修改或删除 Update.rdf 中的 updateLink, signature 键值
 <img src="http://i68.tinypic.com/29zzcpv.png">
 <img src="http://i67.tinypic.com/6944dl.png">
