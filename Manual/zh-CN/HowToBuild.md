@@ -13,7 +13,7 @@
   - 2.1) 如果你需要使用 updateKey 的话，jpm xpi生成的 update.rdf 文件无法通过 McCoy 应用签名
   - 2.2) 你必须参考<a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">这里</a> 修改版本号后再用 McCoy 应用签名
 
-<img src="http://i66.tinypic.com/ml5abm.png"></ br>
+<img src="http://i66.tinypic.com/ml5abm.png"></br>
 
 #老扩展
 
@@ -27,5 +27,5 @@
 - 2) 你必须修改或删除 install.rdf 中的 updateURL, updateKey 键值
 - 3) 你必须修改或删除 Update.rdf 中的 updateLink, signature 键值
 
-<img src="http://i68.tinypic.com/29zzcpv.png"></ br>
-<img src="http://i67.tinypic.com/6944dl.png"></ br>
+<img src="http://i68.tinypic.com/29zzcpv.png"></br>
+<img src="http://i67.tinypic.com/6944dl.png"></br>
