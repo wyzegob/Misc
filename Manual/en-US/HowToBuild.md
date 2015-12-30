@@ -27,7 +27,7 @@
 - 2) You must edit or delete the updateURL key in install.rdf
 - 3) You must edit or delete the updateLink key in Update.rdf
 - 4) updateKey key in install.rdf and signature key in update.rdf are signed by McCoy
-  - 4.1) If you upload the .xpi files to a host over SSL, there's no need to define these keys.
+  - 4.1) If you upload the .xpi files to a host over SSL, there's no need to use McCoy
 
 <img src="http://i68.tinypic.com/29zzcpv.png"></br>
 <img src="http://i67.tinypic.com/6944dl.png"></br>
