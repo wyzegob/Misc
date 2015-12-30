@@ -1,6 +1,7 @@
 ##Caution
 
 - Use at your own risk
+- It will take some time to download the players after installation, please be patient if you would switch to Player Override
 
 ##How To Build
 
@@ -8,19 +9,31 @@
 
 ##How To Use
 
-- Download and install latest soWatch! mk2 in <a href="https://github.com/jc3213/soWatch/releases">Release</a>
-- soWatch! contains filter rules and player rules, but the players will NEVER be packed into .xpi because of reviewing process
-  - soWatch! only gets players from <a href="https://bitbucket.org/kafan15536900/haoutil/raw/master/player/testmod/">15536900's repository</a> cause only he(she) has a repository
-  - It will take some time to download the players after your first install
-  - Please be patient if you switch to player rules immediately after installation.
-- You can access settings of soWatch! by entering about:addons, see
-<p align="center"><img src="http://i62.tinypic.com/b9isr7.jpg"></p>
-- The toolbar icon also contains settings of soWatch! , see
-<p align="center"><img src="http://i57.tinypic.com/208wpcl.jpg"></p>
-  - Some settings are not displayed, some only available in toolbar icon, some only for about:addons
-  - Some settings will only appear in certain condition, see
-<p align="center"><img src="http://i62.tinypic.com/2sb30w9.jpg"></p>
-<p align="center"><img src="http://i58.tinypic.com/34g13pt.jpg"></p>
-- If filter rule gets error, please try to use player rule
-  - Sometimes you need to trigger Simulate: function on
-  - If you still get errors, please <a href="https://github.com/jc3213/soWatch/issues">file an issue</a>
+###about:addons
+- 工具栏UI，可用于添加和取消 工具栏 上的 soWatch! mk2 按钮
+- 自动更新间隔，每次启动soWatch! mk2后检查播放器是否需要更新，根据上次更新时间与现在时间的间隔为基准，精确度为秒
+- 文件夹选项，可以指定保存并更新播放器的目录
+  - 火狐个人档案文件夹，即 Profiles\soWatch 目录 (默认)
+  - 火狐程序文件夹，即 Mozilla Firefox\browser\soWatch 目录
+  - Windows个人档案文件夹，即 X:\ABC\soWatch 目录
+  - 自定义文件夹，如果没有通过 浏览 文件夹来指定的话，将恢复默认选项
+- 用户自定义文件夹，可以通过 浏览 按钮进行指定，如果为空的话上面的选项无法选择自定义文件夹
+- 直连远程播放器，直接访问储存在远程服务器上播放器，而不是将他们下载到本地
+- 远程服务器选项，用以指定用户主要访问哪个远程服务器
+  - 15536900@bitbucket.org，即 卡饭论坛 15536900 的播放器托管服务器 (默认)
+  - 523860169@coding.io，即 卡饭论坛 523860169 提供的播放器托管服务器 （不推荐）
+  - 自定义服务器，如果没有指定用户自定义服务器的话，将回复默认选项
+- 用户自定义服务器，用户可以将播放器上传至自己私有的服务器上并仅分享给好友
+- 网站独立设置，包含各个视频网站独立的设置，其中部分网站的部分设置是通用的
+  - 替换播放器，使用破解播放器替换网站本身的播放器
+  - 过滤XML请求，拦截掉特定的XML请求
+  - 恢复网站默认，停用上述功能，恢复网站默认行为
+- 网站模拟设置，通过修改 引用头 来避免可能出现的跨域问题
+
+###工具栏按钮
+
+- 恢复默认设置，将所有设置恢复默认（部分不受影响）
+  - 不受影响的设置为: 文件夹选项，用户自定义文件夹，远程服务器选项，用户自定义服务器
+- 直连远程服务器，同 about:addons 中的介绍
+- 手动更新播放器，无视 自动更新间隔 ，无视 播放器更新检测 ，直接下载最新版本的播放器
+- 网站独立设置，同 about:addons 中的介绍，必须满足特定条件才会显示。
