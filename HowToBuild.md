@@ -21,6 +21,6 @@
 ##Attention:
 - 1) You must change the UUID of the add-on in install.rdf
 - 2) You must edit or delete the updateURL, and updateKey keys in install.rdf
-- 3) You must edit the updateLink keys in Update.rdf
+- 3) You must edit or delete the updateLink, and signature keys in Update.rdf
 <img src="http://i68.tinypic.com/29zzcpv.png">
-<img src="http://i67.tinypic.com/im6p6w.png">
+<img src="http://i67.tinypic.com/6944dl.png">
