@@ -3,8 +3,9 @@
 ##步骤:
 - 1) 通过 npm 安装 jpm
 - 2) 输入 X: 以及 cd X:\yyyyy\zzzzz 以选定存放源代码的文件夹
-- 3.1) 运行 jpm xpi 生成扩展，然后上传至 AMO 签名
-- 3.2) 运行 jpm sign 可以直接生成已签名的扩展
+- 3) 运行 jpm xpi 生成 my-addon.xpi 文件 与 update.rdf 文件
+  - 3.1) 将 my-addon.xpi 上传至 AMO 获取签名 (可选)
+- 4) 运行 jpm sign 可以直接生成已签名的扩展
 
 ##注意事项:
 - 1) 你必须修改 package.json 中的 UUID
