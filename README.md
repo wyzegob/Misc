@@ -1,2 +1,10 @@
-# Misc
-Misc
+# Manual
+
+##English
+
+
+
+##Chinese (Simplified)
+
+
+
