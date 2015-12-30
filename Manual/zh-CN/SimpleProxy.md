@@ -1,3 +1,7 @@
+##注意
+
+- 用户自行承担使用风险
+
 ##创建扩展
 
 - 请阅读 <a href="https://github.com/jc3213/Misc/blob/master/HowToBuild.md">创建扩展的步骤</a>
