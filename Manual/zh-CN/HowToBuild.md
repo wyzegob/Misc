@@ -3,13 +3,15 @@
 ##步骤:
 - 1) 通过 npm 安装 jpm
 - 2) 输入 X: 以及 cd X:\yyyyy\zzzzz 以选定存放源代码的文件夹
-- 3) 运行 jpm xpi 生成 my-addon.xpi 文件 与 update.rdf 文件
-  - 3.1) 将 my-addon.xpi 上传至 AMO 获取签名 (可选)
-- 4) 运行 jpm sign 可以直接生成已签名的扩展
+- 3) 运行 jpm xpi 生成 my-addon.xpi 文件 与 my-addon.update.rdf 文件
+  - 3.1) 将 my-addon.xpi 上传至 AMO 获取签名
+- 4) 运行 jpm sign 可以直接生成已签名的扩展 （如果有使用 updateKey 的话必须请跳过第三步）
 
 ##注意事项:
 - 1) 你必须修改 package.json 中的 UUID
 - 2) 你必须修改或删除 package.json 中的 updateURL, updateLink, updateKey 键值
+  - 2.1) 如果你需要使用 updateKey 的话，jpm xpi生成的 update.rdf 文件无法通过 McCoy 应用签名
+  - 2.2) 你必须参考<a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">这里</a> 修改版本号后再用 McCoy 应用签名
 <img src="http://i66.tinypic.com/ml5abm.png">
 
 #老扩展
