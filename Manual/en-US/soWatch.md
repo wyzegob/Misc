@@ -10,30 +10,30 @@
 ##How To Use
 
 ###about:addons
-- 工具栏UI，可用于添加和取消 工具栏 上的 soWatch! mk2 按钮
-- 自动更新间隔，每次启动soWatch! mk2后检查播放器是否需要更新，根据上次更新时间与现在时间的间隔为基准，精确度为秒
-- 文件夹选项，可以指定保存并更新播放器的目录
-  - 火狐个人档案文件夹，即 Profiles\soWatch 目录 (默认)
-  - 火狐程序文件夹，即 Mozilla Firefox\browser\soWatch 目录
-  - Windows个人档案文件夹，即 X:\ABC\soWatch 目录
-  - 自定义文件夹，如果没有通过 浏览 文件夹来指定的话，将恢复默认选项
-- 用户自定义文件夹，可以通过 浏览 按钮进行指定，如果为空的话上面的选项无法选择自定义文件夹
-- 直连远程播放器，直接访问储存在远程服务器上播放器，而不是将他们下载到本地
-- 远程服务器选项，用以指定用户主要访问哪个远程服务器
-  - 15536900@bitbucket.org，即 卡饭论坛 15536900 的播放器托管服务器 (默认)
-  - 523860169@coding.io，即 卡饭论坛 523860169 提供的播放器托管服务器 （不推荐）
-  - 自定义服务器，如果没有指定用户自定义服务器的话，将回复默认选项
-- 用户自定义服务器，用户可以将播放器上传至自己私有的服务器上并仅分享给好友
-- 网站独立设置，包含各个视频网站独立的设置，其中部分网站的部分设置是通用的
-  - 替换播放器，使用破解播放器替换网站本身的播放器
-  - 过滤XML请求，拦截掉特定的XML请求
-  - 恢复网站默认，停用上述功能，恢复网站默认行为
-- 网站模拟设置，通过修改 引用头 来避免可能出现的跨域问题
+- Toolbar UI, Add/remove the soWatch! mk2 button to/from the Toolbar
+- Auto Update Period, the time gap between each auto update sessions
+- Local Directory Option, where to save and syncs players
+  - Firefox Profile, the Profiles\soWatch directory (default)
+  - Firefox Program, the Mozilla Firefox\browser\soWatch directory
+  - Windows Home, the %systemdrive%:\yourname\soWatch directory
+  - User Defined, if you have not defined local directory using Browse... , it will return to default
+- Defined Local Directory, Browse... to define local directory
+- Access Remote Host, access and load players directly from remote server
+- Remote Server Option, where players were hosted
+  - 15536900@bitbucket.org, players provided and hosted by 15536900 from bbs.kafan.cn (default)
+  - 523860169@coding.io, players hosted by 523860169 from bbs.kafan.cn (not recommended)
+  - User Defined, if you have not defined remote server, it will return to default
+- Defined Remote Server, you can upload players to your private host and share with your friends
+- Options per Site, options for each of the video sites, some of the preferences are binded together
+  - Player Override, use moded player(s) instead of tje original player(s)
+  - Filter XML Request, block certain XML request(s)
+  - Original Behavior, stop the functions above and restore the original behavior
+- Simulate per Site, modifiy the referer to avoid incoming cross domain problem
 
-###工具栏按钮
+###Toolbar Button
 
-- 恢复默认设置，将所有设置恢复默认（部分不受影响）
-  - 不受影响的设置为: 文件夹选项，用户自定义文件夹，远程服务器选项，用户自定义服务器
-- 直连远程服务器，同 about:addons 中的介绍
-- 手动更新播放器，无视 自动更新间隔 ，无视 播放器更新检测 ，直接下载最新版本的播放器
-- 网站独立设置，同 about:addons 中的介绍，必须满足特定条件才会显示。
+- Restore All Settings, restore all settings to default (some are not affected)
+  - Local Directory Option, Defined Local Directory, Remote Server Option, Defined Remote Server
+- Access Remote Host, the same to about:addons
+- Run Manual Update, download players immediately by ignore Auto Update Period , and Players Update Check
+- Options per Site, the same to about:addons, but only displayed in certain conditions
