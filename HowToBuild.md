@@ -1,4 +1,4 @@
-#Add-ons SDK Styled Add-ons (soWatch! mk2, SimpleProxy, etc)
+#Add-ons SDK Styled Add-ons
 
 ##Step:
 - 1) Install jpm via npm
