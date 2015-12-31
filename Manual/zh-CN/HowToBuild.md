@@ -1,4 +1,4 @@
-#基于 Add-ons SDK 的 Add-ons
+#基于 Add-ons SDK 的 附加组件
 
 ##步骤:
 - 1) 通过 npm 安装 jpm
@@ -16,7 +16,7 @@
 
 <img src="http://i66.tinypic.com/ml5abm.png"></br>
 
-#旧式 Add-ons
+#旧式 附加组件
 
 ##步骤:
 - 1) 将所有文件压缩成 .zip文件 (不要直接压缩文件夹)
