@@ -9,13 +9,13 @@
 ##How to use
 
 - 0) Simple Filter uses the new WebRequest.jsm API and MatchPattern.jsm API
-- 1) Rules must match PATTERN or PATTERN@Type1|Type2|Type3
-  - 1.1) PATTERN must follow the rule of <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a>
-  - 1.2.1) If no Types were defined, all resources types would be blocked
-  - 1.2.2) Types must match main_frame, sub_frame, stylesheet, script, image, object, xmlhttprequest
-  - 1.3) Rule sample as below
-    -1.3.1) http://example.com/*@image|script
-    -1.3.2) *://example.com/*
+- 1) Rules must match the format of PATTERN or PATTERN@Type1|Type2|Type3
+  - 1.1) Rule sample as below
+    - 1.1.1) http://example.com/*@image|script
+    - 1.1.2) *://example.com/*
+  - 1.2) PATTERN must follow the rule of <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a>
+  - 1.3) If no Types were defined, all resources types would be blocked
+    - 1.3.1) Types must match main_frame, sub_frame, stylesheet, script, image, object, xmlhttprequest
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, https://test.com/testrule.txt (not available)
   - 2.2) Subscription(s) will be updated in 4 days
