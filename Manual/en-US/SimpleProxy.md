@@ -4,7 +4,7 @@
 
 ##How To Build
 
-- Read <a href="https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md">Build Step</a>
+- Read <a href="https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md">Build Step</a>
 
 ##How to use
 
