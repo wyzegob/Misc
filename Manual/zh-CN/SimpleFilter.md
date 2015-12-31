@@ -1,30 +1,28 @@
-##Caution
+##注意
 
-- Use at your own risk
+- 用户自行承担风险
 
-##How To Build
+##创建扩展
 
-- Read <a href="https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md">Build Step</a>
+- 请阅读 <a href="https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md">创建扩展的步骤</a>
 
-##How to use
+## 使用说明
 
-- 0) Simple Filter uses the new WebRequest.jsm API and MatchPattern.jsm API
-- 1) Rules must match the format of PATTERN or PATTERN@Type1|Type2|Type3
-  - 1.1) Rule sample as below
+- 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
+- 1) 规则必须满足 PATTERN 或 PATTERN@Type1|Type2|Type3 的格式
+  - 1.1) 下面是规则样例
     - 1.1.1) http://example.com/*@image|script
-    - 1.1.2) *://example.com/
-      - 1.1.2.1) There is a * after example.com/
-  - 1.2) PATTERN must follow the rule of <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a>
-  - 1.3) If no Types were defined, all resources types would be blocked
-    - 1.3.1) Types must match main_frame, sub_frame, stylesheet, script, image, object, xmlhttprequest
-- 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
-  - 2.1) For example, https://test.com/testrule.txt (not available)
-  - 2.2) Subscription(s) will be updated in 4 days
-- 4) You can address absolute path using "Browse..." button in about:addons
-- 5) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleProxy\file.txt
-  - 5.1) profile stands for Profile\SimpleProxy\
-  - 5.2) firefox stands for Mozilla Firefox\browser\SimpleProxy\
-  - 5.3) winuser stands for %UserProfile%\SimpleProxy\
-- 6) You can modify your rules by click "Edit: Rulelist **"
-  - 6.1) You need to click "save" before you close the "editor" if any modification has been done
-  - 6.2) Subscription(s) can not be modified
+  - 1.2) PATTERN 必须遵循 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的规则
+  - 1.3) 如果没有输入 Types ，将默认拦截所有请求类型
+    - 1.3.1) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">请求类型</a>
+- 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
+  - 2.1） 例如 https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+  - 2.2） 订阅规则每4天自动更新一次
+- 3） 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
+- 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
+  - 4.1) profile 代表 Profile\SimpleProxy\
+  - 4.2) firefox 代表 Mozilla Firefox\browser\SimpleProxy\
+  - 4.3) winuser 代表 %UserProfile%\SimpleProxy\
+- 5) 可以通过点击 编辑：规则** 来修改你的规则
+  - 5.1) 如果你有修改规则，你需要先点击 保存 按钮，然后再关闭 编辑器 窗口
+  - 5.2) 订阅规则无法被修改
