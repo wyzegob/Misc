@@ -4,7 +4,7 @@
 
 ##创建扩展
 
-- 请阅读 <a href="https://github.com/jc3213/Misc/blob/master/HowToBuild.md">创建扩展的步骤</a>
+- 请阅读 <a href="https://github.com/jc3213/Misc/blob/master/Manual/zh-CN/HowToBuild.md">创建扩展的步骤</a>
 
 ## 使用说明
 
