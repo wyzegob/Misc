@@ -17,7 +17,7 @@
     -1.3.1) http://example.com/*@image|script
     -1.3.2) *://example.com/*
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
-  - 2.1) For example, https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+  - 2.1) For example, https://test.com/testrule.txt (not available)
   - 2.2) Subscription(s) will be updated in 4 days
 - 4) You can address absolute path using "Browse..." button in about:addons
 - 5) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleProxy\file.txt
