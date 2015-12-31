@@ -17,7 +17,7 @@
   - 1.3) 如果没有输入 Types ，将默认拦截所有请求类型
     - 1.3.1) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">请求类型</a>
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
-  - 2.1） 例如 https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+  - 2.1） 例如 https://test.com/testrule.txt (不可用)
   - 2.2） 订阅规则每4天自动更新一次
 - 3） 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
 - 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
