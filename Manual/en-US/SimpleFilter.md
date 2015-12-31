@@ -9,6 +9,7 @@
 ##How to use
 
 - 0) Simple Filter uses the new WebRequest.jsm API and MatchPattern.jsm API
+  - 0.1) Sometimes a browser restart is needed after rules are updated
 - 1) Rules must match the format of PATTERN or PATTERN@Type1|Type2|Type3
   - 1.1) Rule sample as below
     - 1.1.1) http://example.com/*@image|script
