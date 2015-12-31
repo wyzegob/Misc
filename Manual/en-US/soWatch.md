@@ -21,7 +21,7 @@
 - Local Directory Option, where to save and syncs players
   - Firefox Profile, the Profiles\soWatch directory (default)
   - Firefox Program, the Mozilla Firefox\browser\soWatch directory
-  - Windows Home, the %systemdrive%:\yourname\soWatch directory
+  - Windows Home, the %UserProfile%\soWatch directory
   - User Defined, if you have not defined local directory using Browse... , it will return to default
 - Defined Local Directory, Browse... to define local directory
 - Access Remote Host, access and load players directly from remote server
