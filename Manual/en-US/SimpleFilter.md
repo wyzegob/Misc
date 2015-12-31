@@ -12,7 +12,8 @@
 - 1) Rules must match the format of PATTERN or PATTERN@Type1|Type2|Type3
   - 1.1) Rule sample as below
     - 1.1.1) http://example.com/*@image|script
-    - 1.1.2) <a href="https://github.com/jc3213/Misc/edit/master/Manual/en-US/SimpleFilter.md">*://example.com/*</a>
+    - 1.1.2) *://example.com/
+      - 1.1.2.1) There is a * after example.com/
   - 1.2) PATTERN must follow the rule of <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a>
   - 1.3) If no Types were defined, all resources types would be blocked
     - 1.3.1) Types must match main_frame, sub_frame, stylesheet, script, image, object, xmlhttprequest
