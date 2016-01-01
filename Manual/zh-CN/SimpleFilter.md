@@ -11,7 +11,7 @@
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
   - 0.1) 有时更新规则后需要重启浏览器
 - 1) 规则分为 过滤规则($) 与 重定向(^) 规则
-  - 1.1) 过滤规则例 $*://www.baidu.com/*
+  - 1.1) 过滤规则例 $*://www.baidu.com/
   - 1.2) 重定向规则例 ^*://www.baidu.com>https://www.google.com
   - 1.3) 规则格式必须满足 PATTERN 或 PATTERN@Type1|Type2|Type3
   - 1.3.1) PATTERN 必须遵循 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的规则
