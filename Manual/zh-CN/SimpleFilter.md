@@ -19,7 +19,7 @@
     - 1.3.2) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">请求类型</a>
   - 1.4) 规则详解请看下图
 
-<img src="http://i66.tinypic.com/2s76us0.png">
+<img src="http://i68.tinypic.com/mbk0v7.png">
 
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
   - 2.1） 例如 https://test.com/testrule.txt (不可用)
