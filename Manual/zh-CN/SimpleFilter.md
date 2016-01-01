@@ -13,7 +13,7 @@
 - 1) 规则分为 过滤规则$ 与 重定向^ 规则
   - 1.1.1) 过滤规则例 $*://.baidu.com/
   - 1.1.2) 重定向规则例 ^*://.baidu.com/>https://www.google.com/
-  - 1.1.3) 匹配对象 必须遵循 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的规则
+  - 1.1.3) 匹配对象 必须符合 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的格式
   - 1.3) 可以通过 @Type1|Type2|Type3 来针对 资源类型 进行筛选
     - 1.3.1) 如果没有输入 Types ，将默认拦截所有资源类型
     - 1.3.2) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">资源类型</a>
