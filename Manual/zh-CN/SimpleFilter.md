@@ -10,14 +10,15 @@
 
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
   - 0.1) 有时更新规则后需要重启浏览器
-- 1) 规则分为 过滤规则($) 与 重定向(^) 规则
-  - 1.1) 过滤规则例 $*://www.baidu.com/
-  - 1.2) 重定向规则例 ^*://www.baidu.com>https://www.google.com
-  - 1.3) 规则格式必须满足 PATTERN 或 PATTERN@Type1|Type2|Type3
-  - 1.3.1) PATTERN 必须遵循 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的规则
-  - 1.4) 如果没有输入 Types ，将默认拦截所有请求类型
-    - 1.4.1) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">请求类型</a>
-  - 1.5) 可以查看末尾更多的样例
+- 1) 规则分为 过滤规则$ 与 重定向^ 规则
+  - 1.1.1) 过滤规则例 $*://www.baidu.com/
+  - 1.1.2) 重定向规则例 ^*://www.baidu.com>https://www.google.com
+  - 1.1.3) 匹配对象 必须遵循 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a> 的规则
+  - 1.3) 可以通过 @Type1|Type2|Type3 来针对 资源类型 进行筛选
+    - 1.3.1) 如果没有输入 Types ，将默认拦截所有资源类型
+    - 1.3.2) 详情请阅读 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">请求类型</a>
+  - 1.4) 规则详解请看下图
+<img src="http://i66.tinypic.com/2s76us0.png">
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
   - 2.1） 例如 https://test.com/testrule.txt (不可用)
   - 2.2） 订阅规则每4天自动更新一次
