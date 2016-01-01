@@ -13,7 +13,7 @@
 - 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
   - 2.1) If updateKey is defined, you have to edit the version and updateLink keys in <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">update.rdf</a> and sign it with McCoy
 
-<img src="http://i66.tinypic.com/ml5abm.png"></br>
+<p><img src="http://i66.tinypic.com/ml5abm.png"></p>
 
 #Old Styled Add-ons
 
@@ -29,5 +29,5 @@
 - 4) updateKey key in install.rdf and signature key in update.rdf are signed by McCoy
   - 4.1) If you upload the .xpi files to a host over SSL, there's no need to use McCoy
 
-<img src="http://i68.tinypic.com/29zzcpv.png"></br>
-<img src="http://i67.tinypic.com/6944dl.png"></br>
+<p><img src="http://i68.tinypic.com/29zzcpv.png"></p>
+<p><img src="http://i67.tinypic.com/6944dl.png"></p>
