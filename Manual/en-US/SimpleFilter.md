@@ -15,7 +15,7 @@
   - 1.1.2) Redirect Rule sample, ^*://www.baidu.com/>https://www.google.com/
   - 1.1.3) Read more about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">MatchPattern</a>
   - 1.3) You could define @Type1|Type2|Type3 to filter resource types
-    - 1.3.1) None of Types will match all resource types
+    - 1.3.1) Null of Types will match all resource types
     - 1.3.2) Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
   - 1.4) See pic below for more details
 <p><img src="http://i66.tinypic.com/2r4in3l.png"></p>
