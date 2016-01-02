@@ -23,10 +23,10 @@
   - 2.1） 例如 https://test.com/testrule.txt (不可用)
   - 2.2） 订阅规则每4天自动更新一次
 - 3） 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
-- 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
-  - 4.1) profile 代表 Profile\SimpleProxy\
-  - 4.2) firefox 代表 Mozilla Firefox\browser\SimpleProxy\
-  - 4.3) winuser 代表 %UserProfile%\SimpleProxy\
+- 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleFilter\file.txt 中的规则
+  - 4.1) profile 代表 Profile\SimpleFilter\
+  - 4.2) firefox 代表 Mozilla Firefox\browser\SimpleFilter\
+  - 4.3) winuser 代表 %UserProfile%\SimpleFilter\
 - 5) 可以通过点击 编辑：规则** 来修改你的规则
   - 5.1) 如果你有修改规则，你需要先点击 保存 按钮，然后再关闭 编辑器 窗口
   - 5.2) 订阅规则无法被修改
