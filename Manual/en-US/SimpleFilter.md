@@ -23,10 +23,10 @@
   - 2.1) For example, https://test.com/testrule.txt (not available)
   - 2.2) Subscription(s) will be updated in 4 days
 - 3) You can address absolute path using "Browse..." button in about:addons
-- 4) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleProxy\file.txt
-  - 4.1) profile stands for Profile\SimpleProxy\
-  - 4.2) firefox stands for Mozilla Firefox\browser\SimpleProxy\
-  - 4.3) winuser stands for %UserProfile%\SimpleProxy\
+- 4) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleFilter\file.txt
+  - 4.1) profile stands for Profile\SimpleFilter\
+  - 4.2) firefox stands for Mozilla Firefox\browser\SimpleFilter\
+  - 4.3) winuser stands for %UserProfile%\SimpleFilter\
 - 5) You can modify your rules by click "Edit: Rulelist **"
   - 5.1) You need to click "save" before you close the "editor" if any modification has been done
   - 5.2) Subscription(s) can not be modified
