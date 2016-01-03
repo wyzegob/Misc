@@ -9,13 +9,13 @@
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="41.0a1"
                    em:maxVersion="46.0"
-                   em:updateLink="https://github.com/jc3213/SimpleFilter/releases/download/1.2.2/simplefilter-1.2.2-fx.xpi" />
+                   em:updateLink="https://github.com/jc3213/SimpleFilter/releases/download/1.2.3/simplefilter-1.2.3-fx.xpi" />
   <RDF:Description RDF:about="rdf:#$Bzrz01"
-                   em:version="1.2.2">
+                   em:version="1.2.3">
     <em:targetApplication RDF:resource="rdf:#$Ezrz01"/>
   </RDF:Description>
   <RDF:Description RDF:about="urn:mozilla:extension:simplefilter@jc3213.github"
-                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAKx/HvZY4uzJcqzjd3ZkfDslk6Zlbp2DjuwTYQe6JM8gJVtd3spfwdUF8sdStaEKZZ8kjhsLimQra7w+PxIk/7OWYGdSj7picebAM5ZImBdSb5PVaJeoS5Uuc/shGFo5RyEH1YRRyAMfbUkNfC3ZD9xCetTYxt369LPyjjyqtGVQ">
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBABe7bCs8OINGHg+QObzxv+1QGZXZJtgUdFwwqApA3VxJK6uTqqDdMk4/K1MCSkCvPT1JioBkIQgHS+1Ky2LXvzn+CxMsDa4Jit24CfBDTRZEhRDOjkMXq3XvUgcWM7eEtCax9baR2B/QZfwkFUU7/e1g8jamj0KfUDzJ97y4rdiZ">
     <em:updates RDF:resource="rdf:#$Azrz01"/>
   </RDF:Description>
 </RDF:RDF>
