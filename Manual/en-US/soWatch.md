@@ -32,7 +32,7 @@
 - Defined Remote Server, you can upload players to your private host and share with your friends
 - Options per Site, options for each of the video sites, some of the preferences are binded together
   - Player Override, use moded player(s) instead of tje original player(s)
-  - Filter XML Request, block certain XML request(s)
+  - Filter XML Request, block certain XML request(s) (Default rule, switch to Player Override if any error eccors)
   - Original Behavior, stop the functions above and restore the original behavior
 - Simulate per Site, modifiy the referer to avoid incoming cross domain problem
 
