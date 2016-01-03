@@ -9,18 +9,16 @@
 ## 使用说明
 
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
-  - 0.1) 有时更新规则后需要重启浏览器
-- 1) 规则分为 过滤规则$ 与 重定向^ 规则
-  - 1.1.1) 过滤规则例 $*://.baidu.com/
-  - 1.1.2) 重定向规则例 ^*://.baidu.com/>https://www.google.com/
-  - 1.1.3) 学习如何编写 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">匹配对象</a>
-  - 1.3) 可以通过 @Type1|Type2|Type3 来针对 资源类型 进行筛选
-    - 1.3.1) 如果没有输入 Types ，将默认拦截所有资源类型
-    - 1.3.2) 阅读更多关于 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">资源类型</a>
-  - 1.4) 规则详解请看下图
-<p><img src="http://i64.tinypic.com/eks1mf.png"></p>
+- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern, Suffix, Target String, Resource Types
+<p><img src="http://i66.tinypic.com/2ce12lg.png"></p>
+    - 1.1.1) Prefix $ to determine Filter rule, Prefix ^ to determine Redirect Rule
+    - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
+    - 1.1.3) Raad about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
+    - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to"
+    - 1.1.5) Resource Types is determined by @ , and splitted by | , Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
+  - 1.2) See some rule samples <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleProxy.txt">Simple Filter Sample Rule</a>
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
-  - 2.1） 例如 https://test.com/testrule.txt (不可用)
+  - 2.1） 例如 https://github.com/jc3213/Misc/raw/master/Sample/SimpleProxy.txt
   - 2.2） 订阅规则每4天自动更新一次
 - 3） 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
 - 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleFilter\file.txt 中的规则
