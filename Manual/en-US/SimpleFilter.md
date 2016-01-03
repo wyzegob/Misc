@@ -15,7 +15,7 @@
     - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
     - 1.1.3) Read about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
     - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to"
-    - 1.1.5) Resource Types is determined by @ , and splitted by | , Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
+    - 1.1.5) Insert @ determines Rule will be filtered by Resource Types, which are splitted by | , Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
   - 1.2) See some rule samples <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleProxy.txt">Simple Filter Sample Rule</a>
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, https://github.com/jc3213/Misc/raw/master/Sample/SimpleProxy.txt
