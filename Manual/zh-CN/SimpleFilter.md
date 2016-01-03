@@ -9,14 +9,14 @@
 ## 使用说明
 
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
-- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern, Suffix, Target String, Resource Types
+- 1) Simple Filter 规则包含 前缀, 次前缀, 匹配对象, 后缀, 目标对象, 资源类型
 <p><img src="http://i66.tinypic.com/2ce12lg.png"></p>
-    - 1.1.1) Prefix $ to determine Filter rule, Prefix ^ to determine Redirect Rule
-    - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
-    - 1.1.3) Raad about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
-    - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to"
-    - 1.1.5) Resource Types is determined by @ , and splitted by | , Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
-  - 1.2) See some rule samples <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleProxy.txt">Simple Filter Sample Rule</a>
+    - 1.1.1) 前缀 $ 代表 拦截 规则, 前缀 ^ 代表 重定向 规则
+    - 1.1.2) 次前缀 ! 决定规则是否为白名单
+    - 1.1.3) 阅读资料, 如何编写 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">匹配对象</a>
+    - 1.1.4) 后缀 > 仅适用于 重定向 规则, 其意味着 重定向至
+    - 1.1.5) 添加 @ 确定规则将按照 资源类型 进行 筛选 , 资源类型使用 | 进行分割, 阅读更多关于 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">资源类型</a>
+  - 1.2) 你也可以查看 <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleProxy.txt">Simple Filter 规则样例</a>
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
   - 2.1） 例如 https://github.com/jc3213/Misc/raw/master/Sample/SimpleProxy.txt
   - 2.2） 订阅规则每4天自动更新一次
