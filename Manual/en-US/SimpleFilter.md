@@ -10,15 +10,14 @@
 
 - 0) Simple Filter uses the new WebRequest.jsm API and MatchPattern.jsm API
   - 0.1) Sometimes a browser restart is needed after rules are updated
-- 1) Supported Rules are Filter Rule with $ , and Redirect Rule with ^
-  - 1.1.1) Filter Rule sample, $*://www.baidu.com/
-  - 1.1.2) Redirect Rule sample, ^*://www.baidu.com/>https://www.google.com/
-  - 1.1.3) Read more about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
-  - 1.3) You could define @Type1|Type2|Type3 to filter resource types
-    - 1.3.1) Null of Types will match all resource types
-    - 1.3.2) Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
-  - 1.4) See pic below for more details
-<p><img src="http://i66.tinypic.com/2mg9jzq.png"></p>
+- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern, Suffix, Target String, Resource Types
+  - 1.1) <p><img src="http://i65.tinypic.com/34ozdb5.png"></p>
+  - 1.1.1) Prefix $ determine Filter rule, Prefix ^ determine Redirect Rule
+  - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
+  - 1.1.3) How to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
+  - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to"
+  - 1.1.5) Resource Types is determined by @, and splited by | , Read more about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">Resource Types</a>
+  - 1.2) See some rule samples
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, https://test.com/testrule.txt (not available)
   - 2.2) Subscription(s) will be updated in 4 days
