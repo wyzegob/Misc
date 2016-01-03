@@ -1,0 +1,4 @@
+$*://*.baidu.com/*@image|sub_frame
+$!*://tieba.baidu.com/*
+^http://static.youku.com/*/v/swf/loader*.swf>http://minggo.coding.io/swf/loader.swf
+^http://static.youku.com/*/v/swf/*player*.swf>http://minggo.coding.io/swf/player.swf
