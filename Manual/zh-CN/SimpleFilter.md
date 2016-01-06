@@ -10,7 +10,7 @@
 
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
 - 1) Simple Filter 规则包含 前缀, 次前缀, 匹配对象, 后缀, 目标对象, 资源类型
-<p><img src="http://i66.tinypic.com/2ce12lg.png"></p>
+<p><img src="http://i66.tinypic.com/fvxl05.png"></p>
     - 1.1.1) 前缀 $ 代表 拦截 规则, 前缀 ^ 代表 重定向 规则
     - 1.1.2) 次前缀 ! 决定规则是否为白名单
     - 1.1.3) 阅读资料, 如何编写 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">匹配对象</a>
