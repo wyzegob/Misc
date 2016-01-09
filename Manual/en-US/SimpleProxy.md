@@ -22,7 +22,7 @@
     - 2.2.2) socks support SOCKS V5 protocol
     - 2.2.3) socks4 support SOCKS V4 protocol
 - 3) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
-  - 3.1) For example, https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+  - 3.1) For example, https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt (branch 1.x)
   - 3.2) Subscription(s) will be updated in 4 days
 - 4) You can address absolute path using "Browse..." button in about:addons
 - 5) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleProxy\file.txt
