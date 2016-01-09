@@ -9,7 +9,7 @@
 ##How to use
 
 - 0) Simple Filter uses the new WebRequest.jsm API and MatchPattern.jsm API
-- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern, Suffix, Target String, Resource Types
+- 1) Simple Filter Rule contains Prefix, Sub-prefix, Match Pattern, Suffix, Target String, Resource Types
 <p><img src="http://i66.tinypic.com/ztgdcn.png"></p>
     - 1.1.1) Prefix $ to determine Filter rule, Prefix ^ to determine Redirect Rule
     - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
