@@ -9,10 +9,12 @@
 ##How to use
 
 - 0) Simple Proxy will not override proxy settings of Firefox 
-- 1) Support file extension with alphabet only
+- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern
   - 1.1) Full compatibility with Auto-proxy Rulelist (branch 1.x)
-  - 1.2) Use ".simple" file extension to specify General Purpose Matching Rules (higher priority, since branch 2.x)
-    - 1.2.1) Read 8) for more detail
+  - 1.2) Use Match Pattern and has better performance (branch 2.x)
+    - 1.2.1) Prefix $ to determine if the rule is used for auto proxy serivce
+    - 1.2.2) Sub-prefix ! to determin if the rule is whitelisted
+    - 1.2.3) Read about how to write <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">Match Pattern</a>
 - 2) Server must match the form of server protocol::server adress::server port
   - 2.1) For example, socks::127.0.0.1::1080
   - 2.2) Supported protocol: http, socks, socks4
@@ -31,10 +33,3 @@
   - 6.1) You need to click "save" before you close the "editor" if any modification has been done
   - 6.2) Subscription(s) can not be modified
 - 7) You can clear the profile which is no longer in use by press "Clear: Profile **"
-- 8) For example, target url "http://www.example.com/this/is/an/example.html"
-  - 8.1) <<example.com means search example.com in the host "www.example.com" (return true)
-  - 8.2) >>an/example means search an/example in the path "/this/is/an/example.html" (return true)
-  - 8.3) <>com.this.is means search com.this.is in the whole address (return false)
-  - 8.4) !! add to the head means exception
-    - 8.4.1) For example, !!<<example.com means matching example.com, but return to default proxy
-  - 8.5) The use of * (wildcard) is not supported
