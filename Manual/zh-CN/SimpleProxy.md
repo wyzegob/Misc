@@ -22,7 +22,7 @@
     - 2.2.2) socks 支持 SOCKS V5 协议
     - 2.2.3) socks4 支持 SOCKS V4 协议
 - 3) 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
-  - 3.1) 例如 https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt
+  - 3.1) 例如 https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt (分支1.x 限定)
   - 3.2) 订阅规则每4天自动更新一次
 - 4) 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
 - 5) 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
