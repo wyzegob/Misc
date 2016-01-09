@@ -9,7 +9,7 @@
 ##How to use
 
 - 0) Simple Proxy will not override proxy settings of Firefox 
-- 1) Simple Filter Rule contains Preifx, Sub-prefix, Match Pattern
+- 1) Simple Filter Rule contains Prefix, Sub-prefix, Match Pattern
   - 1.1) Full compatibility with Auto-proxy Rulelist (branch 1.x)
   - 1.2) Use Match Pattern and has better performance (branch 2.x)
     - 1.2.1) Prefix $ to determine if the rule is used for auto proxy serivce
