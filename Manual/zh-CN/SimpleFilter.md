@@ -16,9 +16,9 @@
     - 1.1.3) 阅读资料, 如何编写 <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns">匹配对象</a>
     - 1.1.4) 后缀 > 仅适用于 重定向 规则, 其意味着 重定向至
     - 1.1.5) 添加 @ 确定规则将按照 资源类型 进行 筛选 , 资源类型使用 | 进行分割, 阅读更多关于 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/WebRequest.jsm#Resource_types">资源类型</a>
-  - 1.2) 你也可以查看 <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Sample/SimpleProxy.txt">Simple Filter 规则样例</a>
+  - 1.2) 你也可以查看 <a href="https://github.com/jc3213/Misc/raw/master/Sample/SimpleFilter.txt">Simple Filter 规则样例</a>
 - 2） 可以通过添加 http:// 或 https:// 远程连接来订阅远程规则，支持base64编码的文件
-  - 2.1） 例如 https://github.com/jc3213/Misc/raw/master/Sample/SimpleProxy.txt
+  - 2.1） 例如 https://github.com/jc3213/Misc/raw/master/Sample/SimpleFilter.txt
   - 2.2） 订阅规则每4天自动更新一次
 - 3） 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
 - 4） 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleFilter\file.txt 中的规则
