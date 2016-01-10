@@ -5,7 +5,7 @@
 
 ##How To Build
 
-- Read <a href="https://github.com/jc3213/Misc/blob/master/Manual/en-US/HowToBuild.md">Build Step</a>
+- Read <a href="https://goo.gl/NZlNRH">Build an Add-on</a>
 
 ##About soWatch!
 
