@@ -14,8 +14,8 @@
     - 1.1.1) Prefix $ to determine Filter rule, Prefix ^ to determine Redirect Rule, Prefix % to determine HTTP Request Rule
     - 1.1.2) Sub-prefix ! to determine if the rule is whitelisted
     - 1.1.3) Read about how to write <a href="https://goo.gl/sZzTgN">Match Pattern</a>
-    - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to", Suffix @ is only available for HTTP Request rule, that are spltted by |
-    - 1.1.5) Insert & determines Rule will be filtered by Resource Types, which are splitted by | , Read more about <a href="https://goo.gl/wVla5U">Resource Types</a>
+    - 1.1.4) Suffix > is only available for Redirect rule, which means "redirect to", Suffix < is only available for HTTP Request rule, that are spltted by |
+    - 1.1.5) Insert @ determines Rule will be filtered by Resource Types, which are splitted by | , Read more about <a href="https://goo.gl/wVla5U">Resource Types</a>
   - 1.2) See some rule samples <a href="https://goo.gl/veiWJZ">Simple Filter Sample List</a>
 - 2) Use remote address http:// or https:// to subscribe proxy list, compatible with base64 encoding
   - 2.1) For example, <a href="https://goo.gl/Nf0B0a">Simple Filter Rulelist</a> by @523860169 converted from cjxlist
