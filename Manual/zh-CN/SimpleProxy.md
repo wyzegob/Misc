@@ -10,9 +10,9 @@
 
 - 0) Simple Proxy 不会覆盖 Firefox 本身的代理设置
 - 1) Simple Proxy 规则包含 前缀, 次前缀, 匹配对象
-  - 1.1) 完全兼容 Auto-proxy 规则列表 (分支1.x 限定)
+  - 1.1) 完全兼容 Auto Proxy 规则列表 (分支1.x 限定)
   - 1.2) 使用 匹配对象 以获取更好的性能 (分支2.x 以后)
-    - 1.2.0) 可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Auto-proxy 规则列表进行转换
+    - 1.2.0) 用户可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Auto Proxy 规则列表进行转换
     - 1.2.1) 前缀 # 代表规则是否适用于自动化代理服务
     - 1.2.2) 次前缀 ! 决定规则是否为白名单
     - 1.2.3) 阅读资料, 如何编写 <a href="https://goo.gl/sZzTgN">匹配对象</a>
