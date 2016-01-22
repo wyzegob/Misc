@@ -23,6 +23,6 @@
   - 2.2) Subscription(s) will be updated in 4 days
 - 3) User can address absolute path using "Browse..." button in about:addons
 - 4) User can address relative path using file.txt to access the rulelist in Profile\SimpleFilter\file.txt
-- 5) User can modify Userr rules by click "Edit: Rulelist **"
+- 5) User can modify rules by click "Edit: Rulelist **"
   - 5.1) User need to click "save" before "close" the editor if any modification has been done
   - 5.2) Subscription(s) can not be modified
