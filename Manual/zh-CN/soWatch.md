@@ -5,7 +5,7 @@
 
 ##创建扩展
 
-- 请阅读 <a href="https://goo.gl/NZlNRH">创建扩展</a>
+- 请阅读 <a href="https://goo.gl/9aM7i7">创建扩展</a>
 
 ##关于soWatch!
 
