@@ -11,7 +11,7 @@
 - 0) Simple Filter 使用全新 WebRequest.jsm API 与 MatchPattern.jsm API 编写
 - 1) Simple Filter 规则包含 前缀, 次前缀, 匹配对象, 后缀, 重定向目标, 请求头字符串, 资源类型
 <p><img src="http://i66.tinypic.com/fvxl05.png"></p>
-    - 1.1.0) 可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Adblock Plus 规则列表进行转换
+    - 1.1.0) 用户可以使用 <a href="https://goo.gl/vt6Jj4">Simple Converter</a> 对 Adblock Plus 规则列表进行转换
     - 1.1.1) 前缀 $ 代表 拦截 规则, 前缀 ^ 代表 重定向 规则, 前缀 % 代表 请求头 规则
     - 1.1.2) 次前缀 ! 决定规则是否为白名单
     - 1.1.3) 阅读资料, 如何编写 <a href="https://goo.gl/sZzTgN">匹配对象</a>
