@@ -25,10 +25,7 @@
   - 3.1) 例如 <a href="https://goo.gl/ryMotb">GFWList</a>
   - 3.2) 订阅规则每4天自动更新一次
 - 4) 可以通过 about:addons 设置界面的 “浏览...” 按钮来指定绝对路径中的文件
-- 5) 可以通过 file.txt@profile 这样的格式来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
-  - 5.1) profile 代表 Profile\SimpleProxy\
-  - 5.2) firefox 代表 Mozilla Firefox\browser\SimpleProxy\
-  - 5.3) winuser 代表 %UserProfile%\SimpleProxy\
+- 5) 可以通过 file.txt 来访问相对路径 Profile\SimpleProxy\file.txt 中的规则
 - 6) 可以通过点击 编辑：规则** 来修改你的规则
   - 6.1) 如果你有修改规则，你需要先点击 保存 按钮，然后再关闭 编辑器 窗口
   - 6.2) 订阅规则无法被修改
