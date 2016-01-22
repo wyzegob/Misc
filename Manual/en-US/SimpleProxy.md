@@ -10,8 +10,9 @@
 
 - 0) Simple Proxy will not override proxy settings of Firefox 
 - 1) Simple Proxy Rule contains Prefix, Sub-prefix, Match Pattern
-  - 1.1) Full compatibility with Auto-proxy Rulelist (branch 1.x)
-  - 1.2) Use Match Pattern and has better performance (branch 2.x)
+  - 1.1) Full compatibility with Auto Proxy Rulelist (branch 1.x)
+  - 1.2) Switch to Match Pattern for better performance (branch 2.x)
+    - 1.2.0) You can use <a href="https://goo.gl/vt6Jj4">Simple Converter</a> to convert Auto Proxy Rulelist
     - 1.2.1) Prefix $ to determine if the rule is used for auto proxy serivce
     - 1.2.2) Sub-prefix ! to determin if the rule is whitelisted
     - 1.2.3) Read about how to write <a href="https://goo.gl/sZzTgN">Match Pattern</a>
@@ -25,10 +26,7 @@
   - 3.1) For example, <a href="https://goo.gl/ryMotb">GFWList</a> (branch 1.x)
   - 3.2) Subscription(s) will be updated in 4 days
 - 4) You can address absolute path using "Browse..." button in about:addons
-- 5) You can address relative path using file.txt@profile to access the rulelist in Profile\SimpleProxy\file.txt
-  - 5.1) profile stands for Profile\SimpleProxy\
-  - 5.2) firefox stands for Mozilla Firefox\browser\SimpleProxy\
-  - 5.3) winuser stands for %UserProfile%\SimpleProxy\
+- 5) You can address relative path using file.txt to access the rulelist in Profile\SimpleProxy\file.txt
 - 6) You can modify your rules by click "Edit: Rulelist **"
   - 6.1) You need to click "save" before you close the "editor" if any modification has been done
   - 6.2) Subscription(s) can not be modified
