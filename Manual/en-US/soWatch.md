@@ -33,5 +33,5 @@
 - Restore All Settings, restore all settings to default (some are not affected)
   - Defined Local Directory, Defined Remote Server
 - Toggle Local Player, the same to about:addons
-- Run Manual Update, download players immediately by ignore Auto Update Period , and Players Update Check
+- Run Manual Update, Ignore the Auto Update Period, and download the latest players immediately 
 - Options per Site, the same to about:addons, but only displayed in certain conditions
