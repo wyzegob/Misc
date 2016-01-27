@@ -4,7 +4,7 @@
 
 ##创建扩展
 
-- 请阅读 <a href="https://goo.gl/9aM7i7">创建扩展</a>
+- 请阅读 <a href="https://goo.gl/9aM7i7">如何创建扩展</a>
 
 ## 使用说明
 
