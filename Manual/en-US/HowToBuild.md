@@ -4,7 +4,7 @@
 Add-ons SDK based Add-ons contain package.json , and usually does not contain install.rdf or bootstrap.js
 Legacy Add-ons does not contain package.json , but do contain install.rdf , restartless add-ons contain bootstrap.js
 
-##Build Guild
+##Build Guide
 - 1) Install npm (aka nodejs)
 - 2) Run Node.js command prompt
   - 2.1) Run npm install jpm -global to install jpm (currently 1.0.5)
