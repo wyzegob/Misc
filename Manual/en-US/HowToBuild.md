@@ -1,28 +1,30 @@
-#Add-ons SDK Styled Add-ons
+# How to build an add-on
 
 ##Step:
-- 1) Install jpm via npm
-- 2) Enter X: and cd X:\yyyyy\zzzzz to defined the folder where you put the source code
-- 3) Run jpm xpi to generate my-addon.xpi and my-addon.update.rdf
-  - 3.1) Upload my-addon.xpi to AMO to get signed
-  - 3.2) If updateKey is defined, please skip step 3
-- 4) Run jpm sign to build and sign your add-on, you'll get signed my-addon.xpi
+- 1) Install npm (aka nodejs)
+- 2) Run Node.js command prompt
+  - 2.1) Run npm install jpm -global to install jpm (currently 1.0.5)
+- 3) Download and Extract the source code to X:\
+- 4) Enter X: and cd X:\yyyyy\zzzzz to select the folder of the source code
+- 5) Run jpm xpi command to build your add-on
+  - 5.1.1) Add-ons SDK based add-on will generate my-addon.xpi, and my-addon.update.rdf
+  - 5.1.2) Legacy add-on with no package.json, will only generate null.xpi
+  - 5.2) Upload my-addon.xpi(null.xpi) to AMO and get signed
+- 6) Run jpm sign command to build and sign your add-on
+  - 6.1) If it is an Add-ons SDK based add-on, you can skip step 5)
+  - 6.2) If it is a Legacy add-on, you must use --xpi parameter to sign the null.xpi(or something else)
+- 7) You may need the .jpmignore to skip files that is not needed when you build an add-on
 
-##Attention:
+# Something important
+
+##Add-ons SDK based Add-ons
 - 1) You must change the UUID of the add-on in package.json
 - 2) You must edit or delete the updateURL, updateLink, and updateKey keys in package.json
   - 2.1) If updateKey is defined, you have to edit the version and updateLink keys in <a href="https://raw.githubusercontent.com/jc3213/Misc/master/Update/soWatch_mk2.rdf">update.rdf</a> and sign it with McCoy
 
 <p><img src="http://i66.tinypic.com/ml5abm.png"></p>
 
-#Old Styled Add-ons
-
-##Step:
-- 1) Zip all the files into my-addon.zip (don't zip the folder)
-- 2) Rename my-addon.zip to my-addon-xpi
-- 3) Upload my-addon.xpi to AMO to get signed
-
-##Attention:
+##Legacy Add-ons
 - 1) You must change the UUID of the add-on in install.rdf
 - 2) You must edit or delete the updateURL key in install.rdf
 - 3) You must edit or delete the updateLink key in Update.rdf
