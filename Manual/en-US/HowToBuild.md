@@ -1,8 +1,8 @@
 #How to Build an Add-on
 
 ##Add-on Type
-Add-ons SDK based Add-ons contain package.json , and usually does not contain install.rdf or bootstrap.js
-Legacy Add-ons does not contain package.json , but do contain install.rdf , restartless add-ons contain bootstrap.js
+- Add-ons SDK based Add-ons contain package.json , and usually does not contain install.rdf or bootstrap.js
+- Legacy Add-ons does not contain package.json , but do contain install.rdf , restartless add-ons contain bootstrap.js
 
 ##Build Guide
 - 1) Install npm (aka nodejs)
