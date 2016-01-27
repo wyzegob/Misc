@@ -1,6 +1,6 @@
 # How to build an add-on
 
-##Step:
+##Step
 - 1) Install npm (aka nodejs)
 - 2) Run Node.js command prompt
   - 2.1) Run npm install jpm -global to install jpm (currently 1.0.5)
