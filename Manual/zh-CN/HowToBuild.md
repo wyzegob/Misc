@@ -2,7 +2,7 @@
 
 ##扩展类型
 - 基于 Add-ons SDK 的附加组件包含 package.json 文件, 并且一般不包含 install.rdf 与 bootstrap.js 文件
-- 传统旧式附加组件不包含 package.json 文件, 而且一般默认包含 install.rdf 文件, 无需重启的扩展额外包含 bootstrap.js 文件
+- 传统旧式附加组件不包含 package.json 文件, 而且一般默认包含 install.rdf 文件, 无需重启的扩展包含 bootstrap.js 文件
 
 ##步骤
 - 1) 安装 npm (别称 nodejs)
