@@ -22,7 +22,7 @@
 #重要说明
 
 ##基于 Add-ons SDK 的 附加组件
-- 1) 你必须修改 package.json 中的 UUID
+- 1) 你必须修改 package.json 中的 UUID，同时依照原格式修改main.js中 Services.io.newURI('resource://sowatchmk2-at-jc3213-dot-github/skin/toolbar.css', null, null), resource路径指向的UUID.
 - 2) 你必须修改或删除 package.json 中的 updateURL, updateLink, updateKey 键值
   - 2.1) 如果使用 updateKey, 你必须参考 <a href="https://goo.gl/hHAx3m">Update.rdf</a> 修改 version 和 updateLink 后再用 McCoy 签名
 
